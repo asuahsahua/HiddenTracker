@@ -1,0 +1,14 @@
+## Interface: 70300
+## Title: Hidden Tracker
+## Notes: Tracks progress for hidden artifact appearances
+## Author: Domia on Maiev-US (Curse profile: Asuah)
+## Version: 0.1.0
+## SavedVariables: HiddenTrackerDB
+
+#@no-lib-strip@
+includes.xml
+#@end-no-lib-strip@
+
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+HiddenTracker.lua
